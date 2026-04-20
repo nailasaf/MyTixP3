@@ -12,7 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyTix">
 
-        <!-- ✅ Splash jadi pertama -->
         <activity
             android:name=".SplashActivity"
             android:exported="true">
@@ -24,7 +23,6 @@
 
         </activity>
 
-        <!-- ✅ MainActivity jadi halaman berikutnya -->
         <activity
             android:name=".MainActivity"
             android:exported="false"/>
